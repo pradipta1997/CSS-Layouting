@@ -1,0 +1,38 @@
+.satu{
+	width:200px;
+	height:200px;
+	background-color:lightgreen;
+	
+	/*Untuk margin vertikal*/
+	margin-top:30px;
+	margin-left:200px;
+	margin-bottom:50px;
+	margin-right:100px;
+	
+}
+
+.dua{
+	width:100px;
+	height:100px;
+	background-color:lightblue;
+	/*Overlapping Margin(2 margin saling bertemu),ukuran margin yng lebih kecil akan kalah dengan yang lebih 
+	besar nilainya.Maka margin-bottom:50px diutamakan daripada margin-top:10px;*/
+	
+	/*Untuk margin vertikal*/
+	margin-top:10px;
+	margin-left:150px;
+	margin-bottom:50px;
+	margin-right:70px;
+}
+
+.tiga{
+	width:50px;
+	height:50px;
+	background-color:violet;
+	
+	/*Untuk margin vertikal*/
+	margin-top:10px;
+	margin-left:100px;
+	margin-bottom:50px;
+	margin-right:40px;
+}

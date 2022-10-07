@@ -1,0 +1,25 @@
+.satu{
+	width:200px;
+	height:200px;
+	background-color:lightgreen;
+	margin-bottom: 30px;
+
+}
+
+.dua{
+	width:100px;
+	height:100px;
+	background-color:lightblue;
+	/*Negative Margin dengan margin-top -100px maka kotak kedua akan naik ke kotak satu */
+	margin-top: -100px;
+
+}
+
+.tiga{
+	width:50px;
+	height:50px;
+	background-color:violet;
+	/*Negative Margin dengan margin-left -30px maka kotak ketiga akan bergeser ke arah kiri*/
+	margin-left: -30px;
+	
+}

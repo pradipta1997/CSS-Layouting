@@ -1,0 +1,9 @@
+Personal Portfolio Website | This is my first full website in programming 
+and well, too basic :D
+
+Program Language : HTML5 & CSS3
+Code Editor	 : Sublime Text 3
+Font Face	 : Arial & Calibri
+Image Source	 : Pixabay.com
+Music By	 : Aiivawn Lofi Remix
+Category	 : Front-End

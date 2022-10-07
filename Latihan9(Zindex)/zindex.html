@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Z-index</title>
+
+<style>
+	
+	div{
+		width: 200px;
+		height: 200px;
+		position: absolute;
+	}
+
+	.satu{
+		background-color: gold;
+		z-index: 1;
+	}
+	.dua{
+		background-color: maroon;
+		top:100px;
+		left:100px;
+		z-index: 2;
+	}
+	.tiga{
+		background-color: darkblue;
+		top:200px;
+		left:200px;
+		z-index: 3;
+	}
+
+
+</style>
+
+</head>
+<body>
+
+	<h1>Z-index (Dimensions Level)</h1>
+
+	<!--div atau class yang berada di paling akhir ,maka visual nya paling atas dimensinya -->
+	<div class="satu"></div>
+	<div class="dua"></div>
+	<div class="tiga"></div>
+
+</body>
+</html>

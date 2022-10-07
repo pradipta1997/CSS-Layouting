@@ -1,0 +1,338 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*Bagian Reset Elemen*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Isi dari seluruh tampilan yang ada pada halaman web*/
+body{
+	font:16px;
+	line-height: 28px;
+	font-family: arial, sans-serif;
+	background-color: #23d3d5;
+	background-image: url(gradientvertikal.png);
+	background-repeat: repeat-x;
+	background-size: 900px;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Bagian Kotak dari seluruh isi (.content .main .sidebar .)*/
+.container{
+	width:960px;
+	margin:auto;
+	background-color: rgba(44,48,44,0.5);
+	margin:80px auto;
+	position: relative;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.top-bar{
+	position: fixed;
+	height:25px;
+	top:0;
+	left:0;
+	right:0;
+	background-color:grey;
+	border-bottom: 3px solid gold;
+	opacity:0.9;
+	z-index: 9999;
+	text-align: center;
+	font-weight: bold;
+	font-family: Cooper Std Black;
+	color:yellow;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Bagian icon-icon sosmed di atas hero image*/
+.facebook a{
+	width: 40px;
+	height: 40px;
+	background-image: url(fbicon.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top:74px;
+	left:858px;
+}
+
+.instagram a{
+	width: 40px;
+	height: 40px;
+	background-image: url(igicon.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top:74px;
+	left:900px;
+
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.header{
+	padding:20px;
+}
+
+/*Bagian (MyWebsite Developer)*/
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+
+/*Bagian menjadikan horizontal (link 1-5)*/
+.header ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+/*Bagian font link 1-5*/
+.header a{
+	text-decoration: none;
+	color:gold;
+	padding:5px;
+
+}
+
+/*Bagian animasi button link*/
+.header a:hover{
+	background-color: #2fb7ea;
+	color:black;
+	font-size: 20px;
+
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Bagian gambar utama atau disebut Hero Image*/
+.hero{
+	height:325px;
+	background-image: url(heroimage3.png);
+	background-size: cover;
+	background-position: 0px -207px;
+	border-top: 2px;
+	border-style: solid;
+	border-color: #0c91de;
+	border-bottom: 4px solid #0c91de;
+	
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Bagian isi dari (Content)*/
+.main{
+	width:600px;
+	padding:25px;
+	box-sizing: border-box;
+	float: left;
+}
+
+/*Bagian dari Sub-Judul*/
+.main h2{
+	font-size: 30px;
+	font-weight: bold;
+	font-family:calibri;
+	color:white;
+}
+
+/*Bagian link dari Sub-Judul*/
+.main a{
+	color:gold;
+	text-decoration: none;
+} 
+
+/*Bagian dari nama penulis*/
+.main .penulis{
+	font-size: 20px;
+	margin-top: 0px;
+	color: white;
+
+}
+
+/*Bagian paragraf 1*/
+.main #p1{
+	margin-top: 20px;
+	text-indent: 30px;
+	text-align: justify;
+
+}
+
+/*Bagian paragraf 2*/
+.main #p2{
+	text-indent: 30px;
+	text-align: justify;
+}
+
+/*Bagian paragraf 3*/
+.main #p3{
+	text-indent: 30px;
+	text-align: justify;
+}
+
+/*Bagian paragraf isi content seluruh*/
+.main p{
+	margin-bottom: 20px;
+	font-family: calibri;
+	font-size: 17px;
+	color: white;
+}
+
+/*Bagian nge-block kata2*/
+.main span{
+	background-color: #0c91de;
+	font-style: italic;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*SideBar*/
+.sidebar h3{
+	width: 300px;
+	float: right;
+	padding: 15px;
+	font-family: calibri;
+	font-weight: bolder;
+	font-size: 20px;
+	color:white;
+	margin-right: 30px;
+}
+
+.sidebar img{
+	width: 70px;
+	height: 90px;
+	margin-top: 1px;
+	margin-left: 15px;
+	float: left;
+	padding-right: 8px;
+}
+
+.sidebar p{
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-align: justify;
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+
+.jejaring a{
+	display: inline;
+	color:gold;
+	margin-left:5px;
+
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Bagian footer (copyright)*/
+.footer p{
+	color:white;
+	text-align: right;
+	background-color: black;
+	font-size: 18px;
+	padding:10px;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Bagian dari kotak (Overflow) di luar class .container
+.overflow p{
+	width: 200px;
+	height:180px;
+	overflow: auto;
+	margin-left:1100px;
+	margin-top:-1210px;
+	background-color: #333536;
+	color:white;
+	font-family: calibri;
+
+}
+
+.overflow span{
+	font-weight: bolder;
+	font-size: 25px;
+	font-family: calibri;
+}
+*/
+
+/*------------------------------------------------------------------------------------------------*/
+
+
+/*ClearFix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+/*elemen utama clearfix-nya*/
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*------------------------------------------------------------------------------------------------*/

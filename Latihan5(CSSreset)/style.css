@@ -1,0 +1,12 @@
+*{
+	/*Melakukan reset margin pada default elemen html*/
+	margin:0;
+	padding:0;
+}
+
+div{
+	width: 200px;
+	height:200px;
+	background-color: black;
+
+}
